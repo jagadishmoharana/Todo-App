@@ -1,27 +1,38 @@
 .item {
-  width: 500px;
+  width: 100%;
   color: #353935;
-  font-size: 20px;
+  font-size: 1.25rem; /* adjusted font size to be relative to root element */
   margin: 0 auto;
+  padding: 1rem; /* added padding to make the item more readable */
+  overflow-wrap: break-word;
+  word-break: break-all;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
 }
+
 .itemName {
   font-weight: bold;
-  padding: 20px;
+  /* padding: 20px; */ /* removed padding as it's not necessary */
 }
+
 .line {
-  border: 1px solid #f4f4f4;
+  border-bottom: 1px solid #f4f4f4; /* changed to border-bottom to only show the bottom border */
 }
+
 .deleteButton {
   float: right;
-  padding: 12px 20px;
+  padding: 0.4rem 1rem; /* adjusted padding to be relative to font size */
   border: none;
   background-color: rgb(0, 70, 47);
   color: white;
-  margin-top: -9px;
-  border-radius: 4px;
+  margin-top: -0.1rem; /* adjusted margin to be relative to font size */
+  border-radius: 0.25rem; /* adjusted border radius to be relative to font size */
   cursor: pointer;
+  margin-right: 10px;
 }
+
 .completed {
   text-decoration: line-through;
-  text-decoration-thickness: 3px;
+  text-decoration-thickness: 0.25rem; /* adjusted text decoration thickness to be relative to font size */
 }
