@@ -17,6 +17,7 @@
 
 .line {
   border-bottom: 1px solid #f4f4f4; /* changed to border-bottom to only show the bottom border */
+  margin-bottom: -30px;
 }
 
 .deleteButton {
