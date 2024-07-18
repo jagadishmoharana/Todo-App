@@ -3,6 +3,7 @@
   border-radius: 0.5rem; /* adjusted border radius to be relative to font size */
   box-shadow: 0 0.5rem 1rem rgb(0, 0, 0); /* adjusted box shadow to be relative to font size */
   width: 40%; /* consider using a more flexible unit like max-width or flex-basis */
+  min-width: 250px;
   margin: 0 auto;
   padding: 0.8rem; /* adjusted padding to be relative to font size */
   margin-top: 3rem; /* adjusted margin top to be relative to font size */

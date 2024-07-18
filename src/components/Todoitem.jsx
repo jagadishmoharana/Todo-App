@@ -26,6 +26,7 @@ export default function Todoitems({ item, todos, setTodos }) {
             x
           </button>
         </span>
+        <hr />
       </div>
 
       <hr className={styles.line} />
